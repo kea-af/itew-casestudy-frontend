@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0; 
+    padding: 0;
+}
+
+.bg-custom {
+    background-color: #2FC1FF;
+}
+
+.navbar-brand {
+    font-family: 'Serif', sans-serif;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff; 
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #2D728F;
+}
+
+header .navbar-brand {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+header .nav-link{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.product-table {
+    padding: 20px;
+}
+footer {
+    background-color: #2FC1FF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+}
+
